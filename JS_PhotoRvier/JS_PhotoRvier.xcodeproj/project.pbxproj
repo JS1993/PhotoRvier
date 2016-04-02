@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3EC8FF1C96758E00F8F05A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3EC8FE1C96758E00F8F05A /* main.m */; };
+		CF3EC9021C96758E00F8F05A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3EC9011C96758E00F8F05A /* AppDelegate.m */; };
+		CF3EC9051C96758E00F8F05A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3EC9041C96758E00F8F05A /* ViewController.m */; };
+		CF3EC9081C96758E00F8F05A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3EC9061C96758E00F8F05A /* Main.storyboard */; };
+		CF3EC90A1C96758E00F8F05A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3EC9091C96758E00F8F05A /* Assets.xcassets */; };
+		CF3EC90D1C96758E00F8F05A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3EC90B1C96758E00F8F05A /* LaunchScreen.storyboard */; };
+		CF3EC9181C96758E00F8F05A /* JS_PhotoRvierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3EC9171C96758E00F8F05A /* JS_PhotoRvierTests.m */; };
+		CF3EC9231C96758E00F8F05A /* JS_PhotoRvierUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3EC9221C96758E00F8F05A /* JS_PhotoRvierUITests.m */; };
+		CF3EC9321C96767C00F8F05A /* JSPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3EC9311C96767C00F8F05A /* JSPhoto.m */; };
+		CF3EC9351C96768B00F8F05A /* JSDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3EC9341C96768B00F8F05A /* JSDraw.m */; };
+		CF3EC98B1C96ED3500F8F05A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3EC98A1C96ED3500F8F05A /* CoreGraphics.framework */; };
+		CF3EC98D1C96ED5F00F8F05A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3EC98C1C96ED5F00F8F05A /* UIKit.framework */; };
+		CF3EC98F1C96ED6C00F8F05A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3EC98E1C96ED6C00F8F05A /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF3EC9141C96758E00F8F05A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3EC8F21C96758E00F8F05A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3EC8F91C96758E00F8F05A;
+			remoteInfo = JS_PhotoRvier;
+		};
+		CF3EC91F1C96758E00F8F05A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3EC8F21C96758E00F8F05A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3EC8F91C96758E00F8F05A;
+			remoteInfo = JS_PhotoRvier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF3EC8FA1C96758E00F8F05A /* JS_PhotoRvier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JS_PhotoRvier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3EC8FE1C96758E00F8F05A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF3EC9001C96758E00F8F05A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF3EC9011C96758E00F8F05A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF3EC9031C96758E00F8F05A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF3EC9041C96758E00F8F05A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF3EC9071C96758E00F8F05A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF3EC9091C96758E00F8F05A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3EC90C1C96758E00F8F05A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF3EC90E1C96758E00F8F05A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3EC9131C96758E00F8F05A /* JS_PhotoRvierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JS_PhotoRvierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3EC9171C96758E00F8F05A /* JS_PhotoRvierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JS_PhotoRvierTests.m; sourceTree = "<group>"; };
+		CF3EC9191C96758E00F8F05A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3EC91E1C96758E00F8F05A /* JS_PhotoRvierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JS_PhotoRvierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3EC9221C96758E00F8F05A /* JS_PhotoRvierUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JS_PhotoRvierUITests.m; sourceTree = "<group>"; };
+		CF3EC9241C96758E00F8F05A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3EC9301C96767C00F8F05A /* JSPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPhoto.h; sourceTree = "<group>"; };
+		CF3EC9311C96767C00F8F05A /* JSPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPhoto.m; sourceTree = "<group>"; };
+		CF3EC9331C96768B00F8F05A /* JSDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDraw.h; sourceTree = "<group>"; };
+		CF3EC9341C96768B00F8F05A /* JSDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDraw.m; sourceTree = "<group>"; };
+		CF3EC98A1C96ED3500F8F05A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF3EC98C1C96ED5F00F8F05A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF3EC98E1C96ED6C00F8F05A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3EC8F71C96758E00F8F05A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3EC98F1C96ED6C00F8F05A /* Foundation.framework in Frameworks */,
+				CF3EC98D1C96ED5F00F8F05A /* UIKit.framework in Frameworks */,
+				CF3EC98B1C96ED3500F8F05A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EC9101C96758E00F8F05A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EC91B1C96758E00F8F05A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3EC8F11C96758E00F8F05A = {
+			isa = PBXGroup;
+			children = (
+				CF3EC8FC1C96758E00F8F05A /* JS_PhotoRvier */,
+				CF3EC9161C96758E00F8F05A /* JS_PhotoRvierTests */,
+				CF3EC9211C96758E00F8F05A /* JS_PhotoRvierUITests */,
+				CF3EC8FB1C96758E00F8F05A /* Products */,
+				CF3EC98E1C96ED6C00F8F05A /* Foundation.framework */,
+				CF3EC98C1C96ED5F00F8F05A /* UIKit.framework */,
+				CF3EC98A1C96ED3500F8F05A /* CoreGraphics.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3EC8FB1C96758E00F8F05A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3EC8FA1C96758E00F8F05A /* JS_PhotoRvier.app */,
+				CF3EC9131C96758E00F8F05A /* JS_PhotoRvierTests.xctest */,
+				CF3EC91E1C96758E00F8F05A /* JS_PhotoRvierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3EC8FC1C96758E00F8F05A /* JS_PhotoRvier */ = {
+			isa = PBXGroup;
+			children = (
+				CF3EC9001C96758E00F8F05A /* AppDelegate.h */,
+				CF3EC9011C96758E00F8F05A /* AppDelegate.m */,
+				CF3EC9031C96758E00F8F05A /* ViewController.h */,
+				CF3EC9041C96758E00F8F05A /* ViewController.m */,
+				CF3EC9061C96758E00F8F05A /* Main.storyboard */,
+				CF3EC9091C96758E00F8F05A /* Assets.xcassets */,
+				CF3EC90B1C96758E00F8F05A /* LaunchScreen.storyboard */,
+				CF3EC90E1C96758E00F8F05A /* Info.plist */,
+				CF3EC8FD1C96758E00F8F05A /* Supporting Files */,
+				CF3EC9301C96767C00F8F05A /* JSPhoto.h */,
+				CF3EC9311C96767C00F8F05A /* JSPhoto.m */,
+				CF3EC9331C96768B00F8F05A /* JSDraw.h */,
+				CF3EC9341C96768B00F8F05A /* JSDraw.m */,
+			);
+			path = JS_PhotoRvier;
+			sourceTree = "<group>";
+		};
+		CF3EC8FD1C96758E00F8F05A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF3EC8FE1C96758E00F8F05A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF3EC9161C96758E00F8F05A /* JS_PhotoRvierTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3EC9171C96758E00F8F05A /* JS_PhotoRvierTests.m */,
+				CF3EC9191C96758E00F8F05A /* Info.plist */,
+			);
+			path = JS_PhotoRvierTests;
+			sourceTree = "<group>";
+		};
+		CF3EC9211C96758E00F8F05A /* JS_PhotoRvierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3EC9221C96758E00F8F05A /* JS_PhotoRvierUITests.m */,
+				CF3EC9241C96758E00F8F05A /* Info.plist */,
+			);
+			path = JS_PhotoRvierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3EC8F91C96758E00F8F05A /* JS_PhotoRvier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3EC9271C96758E00F8F05A /* Build configuration list for PBXNativeTarget "JS_PhotoRvier" */;
+			buildPhases = (
+				CF3EC8F61C96758E00F8F05A /* Sources */,
+				CF3EC8F71C96758E00F8F05A /* Frameworks */,
+				CF3EC8F81C96758E00F8F05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JS_PhotoRvier;
+			productName = JS_PhotoRvier;
+			productReference = CF3EC8FA1C96758E00F8F05A /* JS_PhotoRvier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF3EC9121C96758E00F8F05A /* JS_PhotoRvierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3EC92A1C96758E00F8F05A /* Build configuration list for PBXNativeTarget "JS_PhotoRvierTests" */;
+			buildPhases = (
+				CF3EC90F1C96758E00F8F05A /* Sources */,
+				CF3EC9101C96758E00F8F05A /* Frameworks */,
+				CF3EC9111C96758E00F8F05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3EC9151C96758E00F8F05A /* PBXTargetDependency */,
+			);
+			name = JS_PhotoRvierTests;
+			productName = JS_PhotoRvierTests;
+			productReference = CF3EC9131C96758E00F8F05A /* JS_PhotoRvierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF3EC91D1C96758E00F8F05A /* JS_PhotoRvierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3EC92D1C96758E00F8F05A /* Build configuration list for PBXNativeTarget "JS_PhotoRvierUITests" */;
+			buildPhases = (
+				CF3EC91A1C96758E00F8F05A /* Sources */,
+				CF3EC91B1C96758E00F8F05A /* Frameworks */,
+				CF3EC91C1C96758E00F8F05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3EC9201C96758E00F8F05A /* PBXTargetDependency */,
+			);
+			name = JS_PhotoRvierUITests;
+			productName = JS_PhotoRvierUITests;
+			productReference = CF3EC91E1C96758E00F8F05A /* JS_PhotoRvierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3EC8F21C96758E00F8F05A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF3EC8F91C96758E00F8F05A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF3EC9121C96758E00F8F05A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF3EC8F91C96758E00F8F05A;
+					};
+					CF3EC91D1C96758E00F8F05A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF3EC8F91C96758E00F8F05A;
+					};
+				};
+			};
+			buildConfigurationList = CF3EC8F51C96758E00F8F05A /* Build configuration list for PBXProject "JS_PhotoRvier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3EC8F11C96758E00F8F05A;
+			productRefGroup = CF3EC8FB1C96758E00F8F05A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3EC8F91C96758E00F8F05A /* JS_PhotoRvier */,
+				CF3EC9121C96758E00F8F05A /* JS_PhotoRvierTests */,
+				CF3EC91D1C96758E00F8F05A /* JS_PhotoRvierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3EC8F81C96758E00F8F05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3EC90D1C96758E00F8F05A /* LaunchScreen.storyboard in Resources */,
+				CF3EC90A1C96758E00F8F05A /* Assets.xcassets in Resources */,
+				CF3EC9081C96758E00F8F05A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EC9111C96758E00F8F05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EC91C1C96758E00F8F05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3EC8F61C96758E00F8F05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3EC9351C96768B00F8F05A /* JSDraw.m in Sources */,
+				CF3EC9051C96758E00F8F05A /* ViewController.m in Sources */,
+				CF3EC9021C96758E00F8F05A /* AppDelegate.m in Sources */,
+				CF3EC8FF1C96758E00F8F05A /* main.m in Sources */,
+				CF3EC9321C96767C00F8F05A /* JSPhoto.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EC90F1C96758E00F8F05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3EC9181C96758E00F8F05A /* JS_PhotoRvierTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EC91A1C96758E00F8F05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3EC9231C96758E00F8F05A /* JS_PhotoRvierUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF3EC9151C96758E00F8F05A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3EC8F91C96758E00F8F05A /* JS_PhotoRvier */;
+			targetProxy = CF3EC9141C96758E00F8F05A /* PBXContainerItemProxy */;
+		};
+		CF3EC9201C96758E00F8F05A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3EC8F91C96758E00F8F05A /* JS_PhotoRvier */;
+			targetProxy = CF3EC91F1C96758E00F8F05A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF3EC9061C96758E00F8F05A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3EC9071C96758E00F8F05A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3EC90B1C96758E00F8F05A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3EC90C1C96758E00F8F05A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3EC9251C96758E00F8F05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF3EC9261C96758E00F8F05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3EC9281C96758E00F8F05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = JS_PhotoRvier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.JS-PhotoRvier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CF3EC9291C96758E00F8F05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = JS_PhotoRvier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.JS-PhotoRvier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CF3EC92B1C96758E00F8F05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JS_PhotoRvierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.JS-PhotoRvierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JS_PhotoRvier.app/JS_PhotoRvier";
+			};
+			name = Debug;
+		};
+		CF3EC92C1C96758E00F8F05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JS_PhotoRvierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.JS-PhotoRvierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JS_PhotoRvier.app/JS_PhotoRvier";
+			};
+			name = Release;
+		};
+		CF3EC92E1C96758E00F8F05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JS_PhotoRvierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.JS-PhotoRvierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JS_PhotoRvier;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF3EC92F1C96758E00F8F05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JS_PhotoRvierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.JS-PhotoRvierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JS_PhotoRvier;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3EC8F51C96758E00F8F05A /* Build configuration list for PBXProject "JS_PhotoRvier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3EC9251C96758E00F8F05A /* Debug */,
+				CF3EC9261C96758E00F8F05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3EC9271C96758E00F8F05A /* Build configuration list for PBXNativeTarget "JS_PhotoRvier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3EC9281C96758E00F8F05A /* Debug */,
+				CF3EC9291C96758E00F8F05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3EC92A1C96758E00F8F05A /* Build configuration list for PBXNativeTarget "JS_PhotoRvierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3EC92B1C96758E00F8F05A /* Debug */,
+				CF3EC92C1C96758E00F8F05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3EC92D1C96758E00F8F05A /* Build configuration list for PBXNativeTarget "JS_PhotoRvierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3EC92E1C96758E00F8F05A /* Debug */,
+				CF3EC92F1C96758E00F8F05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3EC8F21C96758E00F8F05A /* Project object */;
+}
